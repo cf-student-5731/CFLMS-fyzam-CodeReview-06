@@ -1,6 +1,7 @@
 .imgsize {
   width: 100%;
   margin: 0.5rem 0 0.8rem 0;
+  border-radius: 0.5rem;
 }
 
 .imgsize:hover {
