@@ -4,7 +4,6 @@
 
 
 .carouselCapture
-	// background-color: rgba(255,215,0, 0.5)
 	background: rgb(255,255,255);
 	background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(255,0,0,0.7) 50%, rgba(255,255,255, 0.5) 100%);
 	border-radius: 5rem
@@ -22,6 +21,7 @@ body
 	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(217,180,180,1) 50%, rgba(148,187,233,1) 100%);
 	border-radius: 5rem
 	box-shadow: 0.5rem 0.5rem 0.5rem 0 #A9A9A9;
+	
 
 .itemWrapper
 	border: 0.5rem solid transparent
@@ -31,6 +31,9 @@ body
 	display: flex
 	flex-direction: column
 	justify-content: space-between
+.itemWrapper:hover
+	transform: scale(1.05)
+
 	
 .addressWrapper
 	background: rgb(158,105,255);

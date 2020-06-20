@@ -47,6 +47,11 @@ body {
           justify-content: space-between;
 }
 
+.itemWrapper:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 .addressWrapper {
   background: #9e69ff;
   background: -webkit-gradient(linear, left top, right top, from(rgba(158, 105, 255, 0.5)), to(white));

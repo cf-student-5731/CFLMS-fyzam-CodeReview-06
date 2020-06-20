@@ -31,7 +31,7 @@ $(document).ready(function () {
 		displayHeading(){
 			return`
 				<span style="position: relative;"><a style="position: absolute; top: -120px;" id="navPlaces"></a></span>
-				<div class="col-10 text-center chapterHeading d-flex justify-content-between">
+				<div class="col-10 text-center chapterHeading d-flex justify-content-between mb-2">
 					<a class= "h5 nav-link text-decoration-none toplink" href="#">top</a>
 					<div class ="h2"style="line-height: 3rem">PLACES</div>
 					<div class="dropdown">
@@ -74,7 +74,7 @@ $(document).ready(function () {
 		displayHeading(){
 			return`
 				<span style="position: relative;"><a style="position: absolute; top: -120px;" id="navRestaurants"></a></span>
-				<div class="col-10 text-center chapterHeading d-flex justify-content-between">
+				<div class="col-10 text-center chapterHeading d-flex justify-content-between mb-2">
 					<a class="h5 nav-link text-decoration-none toplink" href="#">top</a>
 					<div class ="h2" style="line-height: 3rem">RESTAURANTS</div>
 					<div class="dropdown">
@@ -120,7 +120,7 @@ $(document).ready(function () {
 		displayHeading(){
 			return`
 			<span style="position: relative;"><a style="position: absolute; top: -120px;" id="navEvents"></a></span>
-				<div class="col-10 text-center chapterHeading d-flex justify-content-between">
+				<div class="col-10 text-center chapterHeading d-flex justify-content-between mb-2">
 					<a class= "h5 nav-link text-decoration-none toplink" href="#">top</a>
 					<div class ="h2" style="line-height: 3rem">EVENTS</div>
 					<div class="dropdown">
