@@ -3,6 +3,11 @@
   margin: 0.5rem 0 0.8rem 0;
 }
 
+.imgsize:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 .carouselCapture {
   background: white;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.5)), color-stop(50%, rgba(255, 0, 0, 0.7)), to(rgba(255, 255, 255, 0.5)));
@@ -45,11 +50,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.itemWrapper:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
 }
 
 .addressWrapper {
